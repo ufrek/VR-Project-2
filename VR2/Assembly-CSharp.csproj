@@ -68,7 +68,9 @@
     <Compile Include="Assets\Samples\Google Cardboard XR Plugin for Unity\1.4.1\Hello Cardboard\Scripts\CardboardStartup.cs" />
     <Compile Include="Assets\Samples\Google Cardboard XR Plugin for Unity\1.4.1\Hello Cardboard\Scripts\ObjectController.cs" />
     <Compile Include="Assets\Samples\Google Cardboard XR Plugin for Unity\1.4.1\Hello Cardboard\Scripts\VrModeController.cs" />
+    <Compile Include="Assets\Scripts\ScavengerHuntManager.cs" />
     <Compile Include="Assets\Scripts\SmoothMouseLook.cs" />
+    <Compile Include="Assets\Scripts\VR Object interact.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity Hub/Unity Editor/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
