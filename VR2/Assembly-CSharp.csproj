@@ -64,13 +64,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Samples\Google Cardboard XR Plugin for Unity\1.4.1\Hello Cardboard\Scripts\CameraPointer.cs" />
     <Compile Include="Assets\Samples\Google Cardboard XR Plugin for Unity\1.4.1\Hello Cardboard\Scripts\CardboardStartup.cs" />
     <Compile Include="Assets\Samples\Google Cardboard XR Plugin for Unity\1.4.1\Hello Cardboard\Scripts\ObjectController.cs" />
     <Compile Include="Assets\Samples\Google Cardboard XR Plugin for Unity\1.4.1\Hello Cardboard\Scripts\VrModeController.cs" />
     <Compile Include="Assets\Scripts\ScavengerHuntManager.cs" />
     <Compile Include="Assets\Scripts\SmoothMouseLook.cs" />
-    <Compile Include="Assets\Scripts\VR Object interact.cs" />
+    <Compile Include="Assets\Scripts\Utilities\CameraPointer.cs" />
+    <Compile Include="Assets\Scripts\Utilities\CountDown.cs" />
+    <Compile Include="Assets\Scripts\Utilities\FadeMusic.cs" />
+    <Compile Include="Assets\Scripts\Utilities\Fading.cs" />
+    <Compile Include="Assets\Scripts\Utilities\GameMaster.cs" />
+    <Compile Include="Assets\Scripts\Utilities\ScoreDisplay.cs" />
+    <Compile Include="Assets\Scripts\Utilities\Timer.cs" />
+    <Compile Include="Assets\Scripts\VRObjectInteract.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity Hub/Unity Editor/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

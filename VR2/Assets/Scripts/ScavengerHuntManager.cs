@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class ScavengerHuntManager : MonoBehaviour
 {
-    private VRObjectinteract[] huntItems;
+    private VRObjectInteract[] huntItems;
     private int itemCount;
 
     // Start is called before the first frame update
     void Start()
     {
         GameObject mgr = GameObject.FindGameObjectWithTag("HuntMgr");
-        huntItems = mgr.GetComponentsInChildren<VRObjectinteract>();
+        huntItems = mgr.GetComponentsInChildren<VRObjectInteract>();
         itemCount = huntItems.Length;
         
     }
