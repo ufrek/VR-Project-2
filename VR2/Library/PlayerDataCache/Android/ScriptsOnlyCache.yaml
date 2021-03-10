@@ -61,25 +61,25 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11610}
+      Script: {instanceID: 11480}
     - Class: 114
-      Script: {instanceID: 11958}
+      Script: {instanceID: 11828}
     - Class: 114
-      Script: {instanceID: 12262}
+      Script: {instanceID: 11930}
     - Class: 114
-      Script: {instanceID: 12284}
+      Script: {instanceID: 12134}
     - Class: 114
-      Script: {instanceID: 12472}
+      Script: {instanceID: 12156}
     - Class: 114
-      Script: {instanceID: 13120}
+      Script: {instanceID: 12344}
     - Class: 114
-      Script: {instanceID: 13126}
+      Script: {instanceID: 12992}
     - Class: 114
-      Script: {instanceID: 13222}
+      Script: {instanceID: 12998}
     - Class: 114
-      Script: {instanceID: 13414}
+      Script: {instanceID: 13094}
     - Class: 114
-      Script: {instanceID: 21722}
+      Script: {instanceID: 13286}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -126,23 +126,23 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11610}
+      Script: {instanceID: 11480}
     - Class: 114
-      Script: {instanceID: 11958}
+      Script: {instanceID: 11828}
     - Class: 114
-      Script: {instanceID: 12262}
+      Script: {instanceID: 12134}
     - Class: 114
-      Script: {instanceID: 12284}
+      Script: {instanceID: 12156}
     - Class: 114
-      Script: {instanceID: 12472}
+      Script: {instanceID: 12344}
     - Class: 114
-      Script: {instanceID: 13120}
+      Script: {instanceID: 12992}
     - Class: 114
-      Script: {instanceID: 13126}
+      Script: {instanceID: 12998}
     - Class: 114
-      Script: {instanceID: 13222}
+      Script: {instanceID: 13094}
     - Class: 114
-      Script: {instanceID: 13414}
+      Script: {instanceID: 13286}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -372,6 +372,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: a7c5ad53f0c41c39701a024dc66d72c8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GazeOverEvent
   - hash:
       serializedVersion: 2
       Hash: 5cc439bf63c0539d39588e69465ac2ab
@@ -732,12 +738,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: a7c5ad53f0c41c39701a024dc66d72c8
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GazeOverEvent
   platform: 13
   scenePathNames:
   - Assets/Scenes/Level 1.unity

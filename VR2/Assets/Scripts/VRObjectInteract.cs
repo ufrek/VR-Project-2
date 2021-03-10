@@ -44,7 +44,8 @@ public class VRObjectInteract : MonoBehaviour
     {
         myAudioSource.PlayOneShot(sClickSound);
         GameObject g = GameObject.FindGameObjectWithTag("GameMaster");
-        g.GetComponent<GameMaster>().endGame();
+        ScavengerHuntManager.S.decrementItem();
+        Destroy(this.gameObject);
     }
 
     /// <param name="gazedAt">
