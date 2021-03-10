@@ -3381,6 +3381,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameMaster
       objectReference: {fileID: 0}
+    - target: {fileID: 6777137432178230259, guid: 70228ec4edf0b4a4c87d385c307c348f,
+        type: 3}
+      propertyPath: sGameOver
+      value: 
+      objectReference: {fileID: 8300000, guid: 2aa0026ea44fc914aba57a92b8828091, type: 3}
+    - target: {fileID: 6777137432178230268, guid: 70228ec4edf0b4a4c87d385c307c348f,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 6777137432178230269, guid: 70228ec4edf0b4a4c87d385c307c348f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3504,6 +3514,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FXMaster
+      objectReference: {fileID: 0}
+    - target: {fileID: 9097083101100192451, guid: cfcd11b1c66881140984cf9d513c6d29,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cfcd11b1c66881140984cf9d513c6d29, type: 3}
