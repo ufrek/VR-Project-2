@@ -14,7 +14,7 @@ public class VRObjectInteract : MonoBehaviour
     [SerializeField]
     AudioClip sClickSound;
 
-   
+    public float clickSoundVolume = .6f;
     private AudioSource myAudioSource;
     private Renderer myRenderer;
 
@@ -25,7 +25,7 @@ public class VRObjectInteract : MonoBehaviour
     void Start()
     {
         myRenderer = this.GetComponent<Renderer>();
-        myAudioSource = this.GetComponent<AudioSource>();
+        myAudioSource = GameObject.FindGameObjectWithTag("FX").GetComponent<AudioSource>();
         SetMaterial(false);
     }
 
@@ -42,7 +42,7 @@ public class VRObjectInteract : MonoBehaviour
 
     public void OnPointerClick()                                            //just plays a a sound for now
     {
-        myAudioSource.PlayOneShot(sClickSound);
+        myAudioSource.PlayOneShot(sClickSound, clickSoundVolume);
         GameObject g = GameObject.FindGameObjectWithTag("GameMaster");
         ScavengerHuntManager.S.decrementItem();
         Destroy(this.gameObject);

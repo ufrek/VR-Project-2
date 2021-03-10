@@ -9,6 +9,7 @@ using UnityEngine.SceneManagement;
 public class GameMaster : MonoBehaviour
 {
     public static GameMaster S;
+    public float changeLevelVolume = .5f;
     bool isOver = true;
 
 
@@ -57,7 +58,7 @@ public class GameMaster : MonoBehaviour
         musicFader.setFadeIn(false);
         musicFader.setFadeOut(true);
         setGameOver(true);
-        soundMgr.PlayOneShot(sGameOver);
+        soundMgr.PlayOneShot(sGameOver, changeLevelVolume);
         this.GetComponent<Fading>().BeginFade(1);
         
         StartCoroutine(Close());
